@@ -1,6 +1,4 @@
-# shopping-card
-
-# Technologies
+# What i used:
 - HTML
 - CSS
 
