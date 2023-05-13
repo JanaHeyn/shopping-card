@@ -1,0 +1,131 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    box-sizing: border-box;
+    color: #333333;
+    background-color: #FFF0F5;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-content {
+    height: 800px;
+    width: 600px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+
+.card-container {
+    height: 625px; 
+    width: 350px;  
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transform: scale(0.95);
+    transition: all 300ms;
+}
+
+.card-container:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 15px 10px 12px 6px rgba(51,51,51,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 15px 10px 12px 6px rgba(51,51,51,0);
+    transform: scale(1);
+}
+
+.image-box {
+    height: 505px;
+    width: 350px;
+    position: relative;
+}
+
+.img-jacke {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.fa-heart {
+    font-size: 2rem;
+    color: #333333;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+.deal {
+    height: 40px;       
+    width: 40px;       
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.deal p {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.text-box {
+    height: 120px;
+    width: 350px;
+    line-height: 5px;
+    background-color: #cccccc;
+    border-radius: 0 0 15px 15px;
+    /* border: 2px solid red; */
+}
+
+.title, 
+.subtitle,
+.price,
+.orig-price {
+    padding-left: 5px;
+}
+
+.title {
+    font-size: 1.5rem;
+    /* margin-bottom: 1rem; */
+    font-weight: 900;
+}
+
+.subtitle span, .subtitle {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.subtitle span {
+    text-transform: uppercase;
+}
+
+.price, 
+.orig-price span.red  {
+    color: red;
+    font-weight: 700;    
+}
+
+.price {
+    margin-bottom: 0.5rem;
+}
+
+.orig-price {
+    margin-top: 0.5rem;
+}
+
+.orig-price {
+    color: #666666;
+    font-weight: 100;
+}
+
+.orig-price span.line-through {
+    text-decoration: line-through;
+}
